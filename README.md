@@ -12,6 +12,10 @@ This is a REST API used for querying and retrieving scoped news and information.
 * Navigate to localhost:4567 on your browser
 * In PSQL:
 ```
+CREATE DATABASE buzzfeed;
+ CREATE TABLE news (id serial PRIMARY KEY, post varchar);
+ CREATE TABLE department (id serial PRIMARY KEY, name varchar, numberofemployees int, description varchar);
+ CREATE TABLE users (id serial PRIMARY KEY, position varchar, name varchar, departmentid int, role varchar);
 
 ```
 ## Known Bugs
