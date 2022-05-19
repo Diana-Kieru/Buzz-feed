@@ -1,4 +1,4 @@
-# BThis is a REST API used for querying and retrieving scoped news and information. There are news/articles/posts that are available to all employees without navigating into any department, and others that are housed/classified within departments.
+# This is a REST API used for querying and retrieving scoped news and information. There are news/articles/posts that are available to all employees without navigating into any department, and others that are housed/classified within departments.
 
 #### By  Diana Kieru
 
