@@ -18,6 +18,24 @@ CREATE DATABASE buzzfeed;
  CREATE TABLE users (id serial PRIMARY KEY, position varchar, name varchar, departmentid int, role varchar);
 
 ```
+```
+end points
+On postman localhost:4567
+ post (/department/new)
+ post("/departments/:departmentId/news/:newsId")
+ get("/departments/:id/news")
+ get("/news/:id/departments")
+  post("/departments/:departmentId/users/new")
+  post("/news/new")
+  get("/departments")
+   get("/departments/:id")
+    get("/departments/:id/users")
+    get("/news")
+    get("/users")
+    post("/department/new")
+
+
+```
 ## Known Bugs
 There are no known bugs. Incase you experience any errors using this website kindly contact me at dianakieru1@gmail.com
 ## Technologies Used

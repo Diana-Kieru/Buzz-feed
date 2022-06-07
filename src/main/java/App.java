@@ -40,7 +40,7 @@ public class App {
         conn = DB.sql2o.open();
 
         get("/", "application/json", (req, res) -> {
-            System.out.println(departmentDao.getAll());
+//            System.out.println(departmentDao.getAll());
 
             if(departmentDao.getAll().size() > 0){
                 return gson.toJson(departmentDao.getAll());
